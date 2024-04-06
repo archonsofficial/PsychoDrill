@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    background-color:#0E371B;
+    background-image: linear-gradient( to right , #0E371B,#F0F6F3 );
+    /* width: 100%; */
+    background-size: auto;
+    /* position: fixed; */
+    min-height: 100vh;
+}
+#logo{
+    width: 120px;
+height: 99px;
+top: 49px;
+left: 234px;
+gap: 0px;
+opacity: 0px;
+background-image: url(logo.png);
+background-size: cover;
+}
+#navbar{
+height: 100%;
+max-width: 100%;
+display: flex;
+flex-direction: row;
+}
+.navpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 179px;
+    height: 99px;
+ /* font style nhi a raha */
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#profilelogo{
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color: #F0F6F3;
+}
+.t1{
+    font-size: 50px;
+    color: white;
+}
+.t2{
+    font-size: 83px;
+    color: #95C1AA;
+}
+#pic{
+    box-shadow: 30px 20px 50px black;
+    height: 750px;
+    width: 629px;
+    background-image: url(homepageimg.jpg);
+    background-size: cover;
+    border-radius: 25px;
+
+}
+#text{
+    height: 531px;
+    width: 357px;
+     /* /* shadow nhi a rahi */
+    text-shadow: 40px 20px  black;
+}
+#imageandtextdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+p1{
+    text-shadow: 15px 20px  20px black;
+}
+#logo2{
+    margin-top: 70px;
+    height: min-content;
+    width: 100vw;
+    background-image: url(logo.png); 
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+}
+.imgchoice{
+    height: 429px;
+    width: 305px;
+    background-size: cover;
+}
+.class{
+}
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+#tattest{
+    width:305px;
+    height:620px;
+    top: 230px;
+    left: 28px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    opacity: 0px;
+    background-image: url(tatimgnew.jpg);
+    background-size: cover;
+}
+#wattest{
+    width:305px;
+    height:620px;
+    top: 230px;
+    left: 28px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    opacity: 0px;
+    background-image: url(watimgnew.jpg);
+    background-size: cover;
+}
+#srttest{
+    width:305px;
+    height:620px;
+    top: 230px;
+    left: 28px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    opacity: 0px;
+    background-image: url(srtimgnew.jpg);
+    background-size: cover;
+}
+#sdttest{
+    width:305px;
+    height:620px;
+    top: 230px;
+    left: 28px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    opacity: 0px;
+    background-image: url(sdtimgnew.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,451 @@
+body{
+    margin: 0px;
+}
+/* now begin navbar */
+#navbar{
+    /* POSITION ABSOLURTE KARKE NAV KO UPAR NICHE KAR LENA BAKI JIJE CHANGE NHI HOGI */
+    /* position: absolute; */
+    background-color:rgb(14, 55, 27);      
+    height: 976px;
+    width: 325px;
+    top: 100px;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 266.75px;
+    height: 50.2px;
+    top: 30px;
+    left: 32px;
+    gap: 30.62px;
+    opacity: 0px;
+}
+#bar{
+    height: 80.2px;
+}
+#logo{
+    height: 100.2px;
+    width: 80.2px;
+    background-image: url(logo.png);
+    background-size: cover;
+    margin-right: 15px;
+}
+F4{
+    color: white;
+    font-size: 20px;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    width:235px;
+    height: 530px;
+    top: 95px;
+    /* CENTRE ME LANE KE LIYE BASS LEFT HATA DENA HAI */
+    left: 36px;
+    gap: 30px;
+    opacity: 0px;
+}
+.opt{
+    /* width: 200px; */
+    /* height: 253px; */
+    background-color:rgb(14, 55, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+.opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* width: 50px; */
+    height: 50.2px;
+    /* top: 50px; */
+    left: 32px;
+    right: 100px;
+    gap: 30.62px;
+    opacity: 0px;
+    color: white;
+    font-size: large;
+}
+#quit{
+    color: white;
+    text-decoration: none;
+}
+/* now begin rectangle 13 */
+#rec13{
+    /* POSITION ABSOLURTE KARKE NAV KO UPAR NICHE KAR LENA BAKI JIJE CHANGE NHI HOGI */
+    position: absolute;
+    background-color: #F0F6F3;
+    height: 60px;
+    width: 1205px;
+    top: 1px;
+    left: 327px;
+    gap: 0px;
+    opacity: 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#back{
+    background-color: #F0F6F3;
+    border: 0cm;
+    height: 50px;
+    margin-left: 20px;
+}
+#textname{
+    font-size: x-large;
+    padding-left: 50px;
+}
+/* now begin question  block  */
+#questionbox{
+    /* POSITION ABSOLURTE KARKE NAV KO UPAR NICHE KAR LENA BAKI JIJE CHANGE NHI HOGI */
+    position: absolute;
+    background-color: #F0F6F3;
+    width: 681px;
+    height: 726px;
+    top: 99px;
+    left: 733px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10%;
+}
+#quesboxa{
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    align-items:center;
+    /* width: 112px; */
+    height: 45px;
+    top: 14px;
+    gap: 0px;
+    border-radius: 7.5px 0px 0px 0px;
+    opacity: 0px;
+}
+.quebut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.09px;
+    text-align: left;
+    border: 0ch;
+    background: #D9D9D9;
+    border-radius:5%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#no{
+    width: 152px;
+    height:53px;
+    top: 14px;
+    left: 271px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.96px;
+    text-align: left;
+    color: #528C6E;
+}
+#quesboxb{
+    position: relative;
+    width: 400px;
+   height: 240px;
+   top: 81px;
+   left: 141px;
+   gap: 0px;
+   opacity: 0px;
+   background-color: coral;
+   box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#quesboxc{
+    position: relative;
+    width: 593px;
+    height: 281px;
+    top: 130px;
+    left: 44px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #0000000A;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+/*  yaha se input lega ans box se */
+#ans{
+    margin: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color:#0000000A ;
+    
+
+}
+#testboxfour{
+    position: absolute;
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    width: 345px;
+    height: 129px;
+    top: 149px;
+    left: 365px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F0F6F3;
+    border-radius: 15%;
+}
+#testboxtextone{
+    width: 45px;
+    height: 33px;
+    top: 24px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.96px;
+    text-align: left;
+    color: #528C6E;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#testboxtexttwo{
+    width: 259px;
+    height: 22px;
+    top: 72px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:calibri;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.97px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 30px;
+
+}
+/* now begin next test block */
+#nexttest{
+    position: absolute;
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    width: 345px;
+    height: 129px;
+    top: 786px;
+    left: 365px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F0F6F3;
+    border-radius: 15%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#nexttestone{
+    width: 105px;
+    height: 33px;
+    top: 24px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.96px;
+    text-align: left;
+    color: #528C6E;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#nexttesttwo{
+    width: 259px;
+    height: 22px;
+    top: 72px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:calibri;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.97px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+/*  now begin timer box */
+#timer{
+    position: absolute;
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    width: 345px;
+    height: 129px;
+    top: 298px;
+    left: 365px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F0F6F3;
+    border-radius: 15%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#timerone{
+    width: 105px;
+    height: 33px;
+    top: 24px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.96px;
+    text-align: left;
+    color: #528C6E;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#timertwo{
+    width: 259px;
+    height: 22px;
+    top: 72px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:calibri;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.97px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+/* question choice box begin here */
+#quesopt{
+    position: absolute;
+    display:flex;
+    justify-content:center ;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 345px;
+    height: 315px;
+    top: 448px;
+    left: 365px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 15%;
+    background-color: #F0F6F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+}
+#quesoptone{
+    width: 105px;
+    height: 33px;
+    top: 24px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    font-family: Calibri;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.96px;
+    text-align: left;
+    color: #528C6E;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#quesoptwo{
+    max-height: 210.62px;
+    overflow: scroll;
+    width: 319.88px;
+    top: 68px;
+    left: 13px;
+    gap: 26.34px;
+    opacity: 0px;
+    margin-left: 15px;
+}
+.Q{
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    /* width: 35.97px; */
+    /* height: 35.31px; */
+    padding: 13.66px 20.49px 13.66px 20.49px;
+    gap: 9.76px;
+    border-radius: 9.76px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    /* background: #F0F6F3DE; */
+    background: #0E371B;
+    color: white;
+    font-size: xx-large;
+    border-radius: 25%;
+    border: 1px solid #ffffff
+}
+.three{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#subbut{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 855px;
+    left: 1233px;
+    width: 180.52px;
+    height: 67.5px;
+    gap: 0px;
+    border: 1.5px 0px 0px 0px;
+    border-radius: 15%;
+    opacity: 0px;
+    background-color: #F0F6F3;
+    border: 1.5px solid #0E371B;
+    box-shadow: 0px 2.0930233001708984px 2.0930233001708984px 0px #00000040;
+}
+#submit{
+    width: 56px;
+    height: 23px;
+    top: 22.5px;
+    left: 62.25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Calibri;
+    font-size: 18.75px;
+    font-weight: 700;
+    line-height: 22.89px;
+    text-align: left;
+    color: #528C6E;
+}
+

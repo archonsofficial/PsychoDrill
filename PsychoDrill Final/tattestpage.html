@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tattestpage</title>
+    <link rel="stylesheet" href="tattestpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="navbar">
+        <div id="top">
+            <div><i class="fa-solid fa-bars fa-xl" style="color: #fcfcfc;"></i></div>
+            <div id="logo"></div>
+            <div><F4>PsychoDrill</F4></div>
+        </div>
+        <div id="options">
+            <button id="analytics" class="opt">
+                <div><i class="fa-solid fa-chart-simple fa-lg" style="color: #fafafa;"></i></div>
+                <div id="text1">Analytics</div>
+            </button>
+            <button id="instructions" class="opt">
+                <div><i class="fa-solid fa-book-open-reader fa-lg" style="color: #ffffff;"></i></div>
+                <div id="text2">Instructions</div>
+            </button>
+            <button id="tat" class="opt">TAT</button>
+            <button id="wat" class="opt">WAT</button>
+            <button id="sdt" class="opt">SRT</button>
+            <button id="srt" class="opt">SDT</button>
+            <button id="quit" class="opt">
+                <div><i class="fa-solid fa-door-open fa-lg" style="color: #ffffff;"></i></div>
+                <a href="index.html"><div id="quit"> Quit</div></a>
+            </button>
+        </div>
+    </div>
+    <div id="rec13">
+        <a href="index.html"><div><button id="back"><i class="fa-solid fa-arrow-left fa-2xl" style="color: #000000;"></i></button></div></a>
+        <div id="textname">SSB</div>
+    </div>
+    <div id="questionbox">
+        <div id="quesboxa">
+            <button class="quebut" id="prev">
+                <i class="fa-solid fa-backward fa-xl" style="color: #000000;"></i>
+                <p11 >Previous </p11>
+            </button>
+            <p10 id="no"> Question no.</p10>
+            <button class="quebut" id="next">
+                <p11>Next</p11>
+                <i class="fa-solid fa-backward fa-flip-horizontal fa-xl" style="color: #000000;"></i>
+            </button>
+        </div>
+        <div id="quesboxb" style="background-image: url('tatimg/set2.1tat.jpg');">
+
+        </div>
+        <div id="quesboxc">
+            <textarea id="ans" name="gans" rows="15" cols="70">
+                </textarea>
+        </div>
+    </div>
+    <div id="testboxfour">
+        <p id="testboxtextone">Test</p>
+        <p id="testboxtexttwo">Thematic Appercepation Test (TAT)</p>
+    </div>
+    <div id="nexttest">
+        <p id="nexttestone">Next Test</p>
+        <p id="nexttesttwo">Word Association Test (WAT)</p>
+    </div>
+    <div id="timer">
+        <p id="timerone">Timer</p>
+        <p id="timertwo">00:00:00</p>
+    </div>
+    <div id="quesopt">
+        <p id="quesoptone">Questions</p>
+        <div id="quesoptwo">
+            <div class="three">
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+            </div>
+            <div class="three">
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+            </div>
+            <div class="three">
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+            </div>
+            <div class="three">
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+                <button class="Q"><a>Q</a></button>
+            </div>
+            
+            
+         </div>
+    </div>
+    <body>
+        <div id="subbut"><div id="submit">submit</div>
+    </body>
+    <!-- <script>
+        let  qu=['tatimg\set2.1tat.jpg','tatimg\set2.4tat.jpg','tatimg\set2.2tat.jpg','tatimg\set2.3tat.jpg'];
+
+const questionbox=document.querySelector("#quesboxb");
+console.log(questionbox);
+
+previous=document.querySelector("#prev");
+next=document.querySelector("#next");
+var text = document.getElementById("ans").value;
+console.log(previous);
+console.log(next);
+
+let i=0
+
+previous.addEventListener("click",()=>{
+    i=i-1;
+    questionbox.textContent=qu[i];
+    if (i<0) {
+    questionbox.textContent="no previous question";
+        
+    }
+})
+
+next.addEventListener("click",()=>{
+    document.getElementById("ans").value="";
+    i=i+1;
+    questionbox.textContent=qu[i];
+    if (i>(qu.length)-1) {
+    questionbox.textContent="no  noext questions";
+    }
+})
+let timeInSeconds = 3240;
+let timerElement = document.getElementById('timertwo');
+
+
+function displayTime() {
+    let minutes = Math.floor(timeInSeconds / 60);
+    let seconds = timeInSeconds % 60;
+    
+   
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+    
+   
+    timerElement.textContent = minutes + ':' + seconds;
+}
+
+
+function startTimer() {
+    displayTime(); 
+    let timer = setInterval(function() {
+        timeInSeconds--;
+        displayTime(); 
+        
+        
+        if (timeInSeconds === 0) {
+            clearInterval(timer);
+            timerElement.textContent = 'Time\'s up!'; 
+        }
+    }, 1000); 
+}
+
+
+startTimer();
+
+let answers=[]
+
+function saveText() {
+    var text = document.getElementById("ans").value;
+    console.log("Text saved:", text);
+    
+}
+
+let submit=document.querySelector("#submit");
+submit.addEventListener("click",()=>{
+   
+    answers.push(text);
+    console.log("Text saved:", text);
+    document.getElementById("ans").value="";
+
+})
+
+
+    </script>
+-->
+
+<script defer src="./tat.js"></script>
+</body>
+</html> 

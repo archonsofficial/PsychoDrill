@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-color:#0E371B;
+    background-image: linear-gradient(to right ,#0E371B,#F0F6F3 );
+}
+#logo{
+    width: 120px;
+height: 99px;
+top: 49px;
+left: 234px;
+gap: 0px;
+opacity: 0px;
+background-image: url(logo.png);
+background-size: cover;
+}
+#navbar{
+height: 100px;
+top: 49px;
+left: 234px;
+display: flex;
+flex-direction: row;
+}
+.navpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 179px;
+    height: 99px;
+/*  font style nhi a raha */
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #F0F6F3;
+}
+#content{
+    display: flex;
+    align-items: center;
+
+}
+#img{
+    height: 700px;
+    width: 600px;
+    background-image: url(aboutssb.jpg);
+    box-shadow: 20px 20px 45px black;
+    background-size: cover;
+    border-radius: 15%;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+#text{
+    height: 500px;
+    width: 700px;
+     margin-left: 60px;
+     margin-bottom: 250px;
+     font-size: larger;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     text-shadow: 10px 10px 15px black ;
+}
