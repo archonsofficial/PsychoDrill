@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-color:#0E371B;
+    background-image: linear-gradient(to right ,#0E371B ,#F0F6F3 );
+}
+#logo{
+    width: 120px;
+height: 99px;
+top: 49px;
+left: 234px;
+gap: 0px;
+opacity: 0px;
+background-image: url(logo.png);
+background-size: cover;
+}
+#navbar{
+height: 100px;
+top: 49px;
+left: 234px;
+display: flex;
+flex-direction: row;
+}
+.navpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 179px;
+    height: 99px;
+/*  font style nhi a raha */
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #F0F6F3;
+}
+#text{
+    height: 1000px;
+    width: 1300px;
+    font-size: x-large;
+    color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+    text-shadow: 20px 5px 20px black;
+}
+#archonslogo{
+    position: absolute;
+    top: 120px;
+    left: 720px;
+    height: 90px;
+    width: 105px;
+    background-image: url(teamlogo.jpg);
+    background-size: cover;
+    align-items: center;
+    border-radius: 20%;
+    border-bottom: 30px black;
+    opacity: 0.8;
+    box-shadow: 10px 10px 20px whitesmoke;
+
+
+}

@@ -1,0 +1,118 @@
+body{
+    margin: 0cap;
+}
+#rec13{
+    /* POSITION ABSOLURTE KARKE NAV KO UPAR NICHE KAR LENA BAKI JIJE CHANGE NHI HOGI */
+    /* position: absolute; */
+    background-color: #F0F6F3;
+    height: 60px;
+    /* width: 1105px; */
+    top: 49px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#back{
+    background-color: #F0F6F3;
+    border: 0cm;
+    height: 50px;
+    margin-left: 20px;
+}
+#textname{
+    font-size: x-large;
+    padding-left: 50px;
+}
+#instructionbox{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 1196px;
+    height: 920px;
+    top: 110px;
+    left: 170px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F0F6F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#instructions{
+    position: absolute;
+    width: 1049px;
+    height: 197px;
+    top: 166px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Fenix;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 25.69px;
+    text-align: left;
+    
+
+}
+#insone{
+    position: absolute;
+    width: 191px;
+    height: 31px;
+    top: 64px;
+    left: 524px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Fenix;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31.28px;
+    text-align: left;
+    box-shadow: 0px 4px 4px 0px #00000040;            
+}
+#textname{
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.52px;
+    text-align: left;
+}
+#startbut{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135.39px;
+    height: 50.63px;
+    top: 935px;
+    left: 1083px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1.5px 0px 0px 0px;
+    border-radius: 15%;
+    background-color: #F0F6F3;
+    border: 1.5px solid #0E371B;
+    box-shadow: 0px 2.0930233001708984px 2.0930233001708984px 0px #00000040;
+}
+#start{
+    width: 56px;
+    height: 23px;
+    top: 22.5px;
+    left: 62.25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Calibri;
+    font-size: 18.75px;
+    font-weight: 700;
+    line-height: 22.89px;
+    text-align: left;
+    color: #528C6E;
+}
+#useless{
+    position: relative;
+    top:150px;
+    visibility: hidden;
+
+}
