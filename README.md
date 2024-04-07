@@ -1,3 +1,8 @@
+## About Us
+Hi There! We are Team Archons 1st Year Undergraduate Students From Lucknow University.
+Feel Free to take a look at - https://psychodrill.w3spaces.com/About_Us/AboutUs.html
+
+
 # PsychoDrill: Psychological Test Preparation Platform for SSB Candidates
 
 PsychoDrill is an innovative platform designed to enhance psychological test preparation for candidates aspiring to join the Indian Armed Forces through. This project operates within the domain of education technology, specifically focusing on psychological test preparation for SSB candidates, intersecting with the defense and military recruitment industry.
@@ -42,10 +47,6 @@ To get started with PsychoDrill, follow these steps:
 2. Install the necessary dependencies.
 3. Access the platform via your web browser.
 
-
-## About Us
-
-PsychoDrill is committed to supporting candidates in their pursuit of a career in the Indian Armed Forces by providing comprehensive psychological test preparation. Join us on our journey to revolutionize SSB exam preparation.
 
 ## Contact Us
 
