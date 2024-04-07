@@ -39,13 +39,7 @@ PsychoDrill harnesses a blend of cutting-edge technologies to ensure a seamless 
 - *Database Management*: Indexed JS
 - *UI/UX Design*: Figma
 
-## Getting Started
 
-To get started with PsychoDrill, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies.
-3. Access the platform via your web browser.
 
 
 ## Contact Us
