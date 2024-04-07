@@ -1,6 +1,6 @@
 # PsychoDrill: Psychological Test Preparation Platform for SSB Candidates
 
-PsychoDrill is an innovative platform designed to enhance psychological test preparation for candidates aspiring to join the Indian Armed Forces through the Service Selection Board (SSB) examination process. This project operates within the domain of education technology, specifically focusing on psychological test preparation for SSB candidates, intersecting with the defense and military recruitment industry.
+PsychoDrill is an innovative platform designed to enhance psychological test preparation for candidates aspiring to join the Indian Armed Forces through. This project operates within the domain of education technology, specifically focusing on psychological test preparation for SSB candidates, intersecting with the defense and military recruitment industry.
 
 
 ## Impotant Links
@@ -17,13 +17,13 @@ The SSB interview process is highly competitive, with only a small percentage of
 
 ## Solution Overview
 
-PsychoDrill offers an interactive platform featuring quiz-based exercises tailored to the format and content of psychological tests encountered in SSB examinations. Key features include:
+PsychoDrill offers an interactive platform featuring test assessments tailored to the format and content of psychological tests encountered in SSB interview. Key features include:
 
-- *Comprehensive Quiz Coverage*: A vast range of quizzes covering topics such as the Thematic Apperception Test, Word Association Test, Situation Reaction Test, and Self Description test.
+- *Comprehensive Test Assessments*:  Thematic Apperception Test, Word Association Test, Situation Reaction Test, and Self Description test.
 - *Real-time Feedback Mechanism*: Peer feedback allows candidates to receive constructive criticism, alternative perspectives, and insights into different problem-solving approaches.
-- *Access to Model Answers*: Pre-loaded answers for each quiz enable candidates to self-assess and identify areas of strength and weakness, facilitating targeted practice.
+- *Access to Model Answers*: Pre-loaded answers for each test enable candidates to self-assess and identify areas of strength and weakness, facilitating targeted practice.
 - *User-friendly Interface*: Allows users to upload their answers via pen and paper submission or typing, with reference answers and video explanations provided for each question.
-- *Exam Updates and Resources*: Provides updates on exam dates and patterns to keep candidates informed and prepared.
+- *Exam Updates and Resources*: Provides updates on exam and interview dates and patterns to keep candidates informed and prepared.
 
 ## Tech Stack
 
@@ -45,7 +45,7 @@ To get started with PsychoDrill, follow these steps:
 
 ## About Us
 
-PsychoDrill is committed to supporting candidates in their pursuit of a career in the Indian Defence Forces by providing comprehensive psychological test preparation. Join us on our journey to revolutionize SSB exam preparation.
+PsychoDrill is committed to supporting candidates in their pursuit of a career in the Indian Armed Forces by providing comprehensive psychological test preparation. Join us on our journey to revolutionize SSB exam preparation.
 
 ## Contact Us
 
