@@ -2,6 +2,11 @@
 Hi There! We are Team Archons 1st Year Undergraduate Students From Lucknow University.
 Feel Free to take a look at - https://psychodrill.w3spaces.com/About_Us/AboutUs.html
 
+## Disclaimer
+
+The site is not compete yet we will be updating the code on regular basis more pages will be added.
+The Files and the entire project is on Early Development Stage.
+
 
 # PsychoDrill: Psychological Test Preparation Platform for SSB Candidates
 
