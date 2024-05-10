@@ -4,8 +4,8 @@ Feel Free to take a look at - https://psychodrill.w3spaces.com/About_Us/AboutUs.
 
 ## Disclaimer
 
-The site is not compete yet we will be updating the code on regular basis more pages will be added.
-The Files and the entire project is on Early Development Stage.
+The site is not complete ye, we will be updating the code on regular basis and more features will be added.
+The uploaded Files and the entire project is on Early Development Stage. You may face few errors and glitches.
 
 
 # PsychoDrill: Psychological Test Preparation Platform for SSB Candidates
