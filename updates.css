@@ -50,3 +50,25 @@ body {
     display: block;
     margin-bottom: 5px;
 }
+
+.back-button-container {
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
