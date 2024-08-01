@@ -4,7 +4,7 @@ Feel Free to take a look at - https://psychodrill.w3spaces.com/About_Us/AboutUs.
 
 ## Disclaimer
 
-The site is not complete ye, we will be updating the code on regular basis and more features will be added.
+The site is not complete yet, we will be updating the code on regular basis and more features will be added.
 The uploaded Files and the entire project is on Early Development Stage. You may face few errors and glitches.
 
 
@@ -49,4 +49,4 @@ PsychoDrill harnesses a blend of cutting-edge technologies to ensure a seamless 
 
 ## Contact Us
 
-For any inquiries or support, please contact us at archonsofficial@gmail.com .
+For any inquiries or support, please contact us at archonsofficial@gmail.com 
